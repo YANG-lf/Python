@@ -1,0 +1,17 @@
+import turtle
+def func():   
+    turtle.hideturtle()
+    turtle.pu()
+    turtle.goto(0,-100)
+    turtle.pendown()
+    turtle.begin_fill()
+    turtle.color("red")
+    turtle.left(45)
+    turtle.fd(100)
+    turtle.circle(50,180)
+    turtle.right(90)
+    turtle.circle(50,180)
+    turtle.fd(100)
+    turtle.end_fill()
+func()
+turtle.done()
